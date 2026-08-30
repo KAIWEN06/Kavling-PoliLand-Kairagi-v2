@@ -5,6 +5,7 @@ import Home from '../pages/public/Home';
 import About from '../pages/public/About';
 import Gallery from '../pages/public/Gallery';
 import NotFound from '../pages/public/NotFound';
+import Maintenance from '../pages/public/Maintenance';
 
 const AppRoutes = () => {
   return (
@@ -16,6 +17,7 @@ const AppRoutes = () => {
         <Route path="siteplan" element={<Home />} />
         <Route path="progress" element={<Home />} />
         <Route path="kontak" element={<Home />} />
+        <Route path="maintenance" element={<Maintenance />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>

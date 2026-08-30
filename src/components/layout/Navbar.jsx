@@ -54,9 +54,9 @@ const Navbar = ({ activeMenu }) => {
     { name: 'Home', path: '/' },
     { name: 'Tentang', path: '/tentang' },
     { name: 'Gallery', path: '/gallery' },
-    { name: 'Siteplan', path: '/*' },
-    { name: 'Progress', path: '/*' },
-    { name: 'Kontak', path: '/*' },
+    { name: 'Siteplan', path: '/maintenance' },
+    { name: 'Progress', path: '/maintenance' },
+    { name: 'Kontak', path: '/maintenance' },
   ];
 
   // Penentuan Status Active Menu
