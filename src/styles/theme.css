@@ -1,0 +1,45 @@
+:root {
+  /* ===========================
+     COLORS
+  =========================== */
+
+  --color-primary: #1e3a8a;
+  --color-secondary: #15803d;
+  --color-accent: #d97706;
+
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+
+  --color-text: #0f172a;
+  --color-text-muted: #64748b;
+
+  --color-border: #e2e8f0;
+
+  --color-success: #16a34a;
+  --color-warning: #ca8a04;
+  --color-danger: #dc2626;
+
+  /* ===========================
+     RADIUS
+  =========================== */
+
+  --radius-button: 0.5rem;
+  --radius-card: 1rem;
+  --radius-input: 0.5rem;
+  --radius-badge: 9999px;
+
+  /* ===========================
+     SHADOW
+  =========================== */
+
+  --shadow-card: 0 1px 3px rgba(0,0,0,.08);
+
+  --shadow-hover: 0 10px 20px rgba(0,0,0,.12);
+
+  /* ===========================
+     TRANSITION
+  =========================== */
+
+  --transition: all .3s ease;
+
+}
